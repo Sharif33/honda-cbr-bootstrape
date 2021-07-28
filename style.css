@@ -1,3 +1,4 @@
+
 .bannerBg{
     background-color: #264653;
 }
@@ -31,4 +32,16 @@
 .grayScale2:hover{
     filter: grayscale(100);
     transition: 1s;
+}
+
+/* Reviews */
+
+.shadowHover:hover{
+    border: none !important;
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
+}
+
+/* Bonus section-1 */
+.shadowCarousel{
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
 }
