@@ -38,26 +38,19 @@
     color: #E76F51;
 }
 
-/* grayscale Add with hover*/
+/* grayscale Add*/
 
 .grayScale{
     filter: grayscale(100);
     width: 18rem;
     height: 15.1875rem;
 }
-.grayScale:hover{
-    filter: grayscale(0);
-    transition: 1s;
-}
 .grayScale2{
     filter: grayscale(0);
     width: 18rem;
     height: 15.1875rem;
 }
-.grayScale2:hover{
-    filter: grayscale(100);
-    transition: 1s;
-}
+
 
 /* Reviews */
 .shadowHover:hover{
