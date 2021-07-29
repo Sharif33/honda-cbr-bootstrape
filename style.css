@@ -45,3 +45,40 @@
 .shadowCarousel{
     box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
 }
+
+/* Bonus section-2 */
+.bg-black{
+  background: #212121;  
+}
+.locate{
+    position: relative;
+    overflow: hidden;
+}
+.imgCap{
+    position: absolute;
+    display: none;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+    top: auto;
+    height: auto;
+    background: #212121;
+    transition: 2s ease;
+  
+}
+.locate:hover img{
+    transform: scale(1.125);
+    transition: 2s ease;
+}
+.locate:hover .imgCap{
+    display: block; 
+    transform: translateY(-8px);
+    z-index:1;
+}
+.locate:hover h5{
+    transform: translateY(-40px);
+    transition: 1s ease;
+}
